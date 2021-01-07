@@ -20,7 +20,7 @@ function Navigation(props) {
       <Link className="navbar-brand" to="/">Christian's Site</Link>
       <ul className="navbar-nav mr-auto">
         <li className="nav-item">
-          <NavLink className="nav-link" exact to="">
+          <NavLink className="nav-link" exact to="/">
             Home
           </NavLink>
         </li>
@@ -52,7 +52,7 @@ class App extends React.Component {
             <Switch>
               <Route path="/about-us" component={AboutUsPage} />
               <Route path="/assignments" component={Assignments} />
-              <Route path="" component={HomePage} />
+              <Route path="/" component={HomePage} />
             </Switch>
           </div>
         </div>
