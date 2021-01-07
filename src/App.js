@@ -4,7 +4,8 @@ import {
   Switch,
   Route,
   Link,
-  NavLink
+  NavLink,
+  HashRouter
 } from 'react-router-dom';
 
 import AboutUsPage from './pages/AboutUsPage';
@@ -44,7 +45,8 @@ class App extends React.Component {
   render() {
     return (
       
-      <Router>
+      // <Router>
+      <HashRouter basename="/">
         <Navigation />
         <div className="container-fluid text-center">
           <div className="row justify-content-center">
@@ -56,7 +58,8 @@ class App extends React.Component {
             </Switch>
           </div>
         </div>
-      </Router>
+      </HashRouter>
+      // </Router>
     );
   }
 }
