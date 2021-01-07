@@ -49,7 +49,7 @@ function WorkDone(){
                 <tr>
                     <td>1.2</td>
                     <td>Deploy a website to GitHub pages</td>
-                        <td><a href="https://echochris234.github.io">link</a></td>
+                        <td><a href="https://echochris234.github.io/personal-page/#/about-us">link</a></td>
                     <td>1</td>
                     <td>2</td>
                     <td>4</td>
