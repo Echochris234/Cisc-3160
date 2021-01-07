@@ -47,17 +47,19 @@ class App extends React.Component {
       
       // <Router>
       <HashRouter >
+
         <Navigation />
         <div className="container-fluid text-center">
           <div className="row justify-content-center">
             
             <Switch>
-              <Route path="personal-page/about-us" component={AboutUsPage} />
-              <Route path="personal-page/assignments" component={Assignments} />
-              <Route path="personal-page/home" component={HomePage} />
+              <Route path="/about-us" component={AboutUsPage} />
+              <Route path="/assignments" component={Assignments} />
+              <Route path="/home" component={HomePage} />
             </Switch>
           </div>
         </div>
+        
       </HashRouter>
       // </Router>
     );
