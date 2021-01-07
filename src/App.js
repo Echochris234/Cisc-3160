@@ -20,17 +20,17 @@ function Navigation(props) {
       <Link className="navbar-brand" to="personal-page/home">Christian's Site</Link>
       <ul className="navbar-nav mr-auto">
         <li className="nav-item">
-          <NavLink className="nav-link" exact to="personal-page/home">
+          <NavLink className="nav-link" exact to="/home">
             Home
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" exact to="personal-page/about-us">
+          <NavLink className="nav-link" exact to="/about-us">
             About
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" exact to="personal-page/assignments">
+          <NavLink className="nav-link" exact to="/assignments">
             Assignments
           </NavLink>
         </li>
@@ -50,9 +50,9 @@ class App extends React.Component {
           <div className="row justify-content-center">
             
             <Switch>
-              <Route path="/about-us" component={AboutUsPage} />
-              <Route path="/assignments" component={Assignments} />
-              <Route path="/home" component={HomePage} />
+              <Route path="personal-page/about-us" component={AboutUsPage} />
+              <Route path="personal-page/assignments" component={Assignments} />
+              <Route path="personal-page/home" component={HomePage} />
             </Switch>
           </div>
         </div>
