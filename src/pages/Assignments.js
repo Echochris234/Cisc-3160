@@ -49,7 +49,7 @@ function WorkDone(){
                 <tr>
                     <td>1.2</td>
                     <td>Deploy a website to GitHub pages</td>
-                    <td><a href="https://orlandpm-demo.github.io">link</a></td>
+                        <td><a href="https://echochris234.github.io">link</a></td>
                     <td>1</td>
                     <td>2</td>
                     <td>4</td>
@@ -57,10 +57,11 @@ function WorkDone(){
                 <tr>
                     <td>1.3</td>
                     <td>Deploy an assignments page (this page!) </td>
-                    <td></td>
-                    <td>1.5</td>
-                    <td></td>
-                    <td></td>
+                        <td><a href="https://echochris234.github.io/assignments">link</a></td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>4</td>
+                  
                 </tr>
                 <tr>
                     <td>1.4*</td>
@@ -74,16 +75,16 @@ function WorkDone(){
                     <td>1.5</td>
                     <td>Create two screens of your first app</td>
                     <td><a href=""></a></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>1</td>
+                    <td>1.5</td>
+                    <td>2</td>
                 </tr>
                 <tr>
                     <td>1.6*</td>
                     <td>Create a side-menu in CSS</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>N/A</td>
+                    <td>1</td>
+                    <td>3</td>
                     <td></td>
                 </tr>
                 <tr>
