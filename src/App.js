@@ -17,20 +17,20 @@ import './App.css';
 function Navigation(props) {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark shadow mb-3">
-      <Link className="navbar-brand" to="/home">Christian's Site</Link>
+      <Link className="navbar-brand" to="personal-page/home">Christian's Site</Link>
       <ul className="navbar-nav mr-auto">
         <li className="nav-item">
-          <NavLink className="nav-link" exact to="/home">
+          <NavLink className="nav-link" exact to="personal-page/home">
             Home
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" exact to="/about-us">
+          <NavLink className="nav-link" exact to="personal-page/about-us">
             About
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" exact to="/assignments">
+          <NavLink className="nav-link" exact to="personal-page/assignments">
             Assignments
           </NavLink>
         </li>
