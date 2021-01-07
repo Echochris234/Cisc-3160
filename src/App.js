@@ -46,7 +46,7 @@ class App extends React.Component {
     return (
       
       // <Router>
-      <HashRouter basename="/">
+      <HashRouter >
         <Navigation />
         <div className="container-fluid text-center">
           <div className="row justify-content-center">
