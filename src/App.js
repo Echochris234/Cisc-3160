@@ -21,17 +21,17 @@ function Navigation(props) {
       <Link className="navbar-brand" to="/home">Christian's Site</Link>
       <ul className="navbar-nav mr-auto">
         <li className="nav-item">
-          <NavLink className="nav-link" exact to="/home">
+          <NavLink className="nav-link" to="/home">
             Home
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" exact to="/about-us">
+          <NavLink className="nav-link" to="/about-us">
             About
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" exact to="/assignments">
+          <NavLink className="nav-link" to="/assignments">
             Assignments
           </NavLink>
         </li>
@@ -55,7 +55,7 @@ class App extends React.Component {
             <Switch>
               <Route path="/about-us" component={AboutUsPage} />
               <Route path="/assignments" component={Assignments} />
-              <Route path="/home" component={HomePage} />
+              <Route exact path="/home" component={HomePage} />
             </Switch>
           </div>
         </div>
