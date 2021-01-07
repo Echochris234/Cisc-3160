@@ -53,9 +53,9 @@ class App extends React.Component {
           <div className="row justify-content-center">
             
             <Switch>
-              <Route path="/about-us" component={AboutUsPage} />
-              <Route path="/assignments" component={Assignments} />
-              <Route path="/home" component={HomePage} />
+              <Route path="#/about-us" component={AboutUsPage} />
+              <Route path="#/assignments" component={Assignments} />
+              <Route path="#/home" component={HomePage} />
             </Switch>
           </div>
         </div>
