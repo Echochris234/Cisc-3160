@@ -44,6 +44,7 @@ class HomePage extends React.Component {
             <div>
                 {/* <ShowWeather/> */}
                 <h1>Hello Welcome to my Portfolio Page</h1>
+                <h2>UPDATE ALERT</h2>
 
             </div>
         )
