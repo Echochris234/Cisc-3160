@@ -66,10 +66,10 @@ function WorkDone(){
                 <tr>
                     <td>1.4*</td>
                     <td>Create a personal/professional homepage</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                        <td><a href="https://echochris234.github.io/personal-page/#/about-us">link</a></td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
                 </tr>
                 <tr>
                     <td>1.5</td>
