@@ -74,7 +74,7 @@ function WorkDone(){
                 <tr>
                     <td>1.5</td>
                     <td>Create two screens of your first app</td>
-                    <td><a href=""></a></td>
+                    <td>N/A</td>
                     <td>1</td>
                     <td>1.5</td>
                     <td>2</td>
@@ -85,7 +85,7 @@ function WorkDone(){
                     <td>N/A</td>
                     <td>1</td>
                     <td>3</td>
-                    <td></td>
+                    <td>2</td>
                 </tr>
                 <tr>
                     <td>1.7*</td>
@@ -98,22 +98,22 @@ function WorkDone(){
                 <tr>
                     <td>1.A</td>
                     <td>What did you like this week?</td>
-                    <td colspan="4"></td>
+                    <td colspan="4"> It was a very nice refresher and detailed over view of material</td>
                 </tr>
                 <tr>
                     <td>1.B</td>
                     <td>What didn't you like this week?</td>
-                    <td colspan="4"></td>
+                    <td colspan="4">N/A</td>
                 </tr>
                 <tr>
                     <td>1.C</td>
                     <td>How can we improve the material from this week?</td>
-                    <td colspan="4"></td>
+                    <td colspan="4">Maybe shareable slides or lecture notes that we can refrenced to</td>
                 </tr>
                 <tr>
                     <td>1.D*</td>
                     <td>Show us anything else you coded up this week!</td>
-                    <td colspan="4"></td>
+                    <td colspan="4">N/A</td>
                 </tr>
             </tbody>
         </Table>
