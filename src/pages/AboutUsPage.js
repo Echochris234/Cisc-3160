@@ -8,15 +8,15 @@ function AboutUsPage(props) {
     <div>
       <div id="background" />
       <div className="container transparent-bg">
-        <h1 className="text-shadow-3 text-dark display-3 pt-5 mt-5 mb-3">
+        <h1 className="text-shadow-3 text-light display-3 pt-5 mt-5 mb-3">
           <strong>About Me</strong>
         </h1>
-        <h2 className="text-dark display-5 text-center">
+        <h2 className="text-light display-5 text-center">
           Computer Science Student at Brooklyn College 2021
           </h2>
         <div className="row my-4 mx-auto">
           <div className="d-flex col-md justify-content-center">
-            <p className="text-dark mx-5">
+            <p className="text-light mx-5">
               <strong>
                 <p>Hello My name is Christian Vargas and I am a senior at Brooklyn College interested in software development as well as web development. With a deep understanding of Object oriented programming and a few years of experience in Java and real world projects I believe I can apply my skills and knowldege to develop or assist in the development of any ideas you may have </p>
               </strong>
@@ -35,7 +35,7 @@ function AboutUsPage(props) {
             </div> */}
         </div>
         <div>
-            <h2 className="text-dark display-5 text-center">
+            <h2 className="text-light display-5 text-center">
               Projects
             </h2>
               <h3>Caloria</h3>
@@ -89,7 +89,7 @@ function AboutUsPage(props) {
         </div>
       
         <div className="row justify-content-center">
-          <h2 className="text-dark display-4 text-center mt-2 mb-1">
+          <h2 className="text-light display-4 text-center mt-2 mb-1">
             My Socials
             </h2>
         </div>
