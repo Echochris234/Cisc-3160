@@ -28,3 +28,7 @@ body{
 #metric{
   margin-right:120px;
 }
+#aboutHeader{
+  background-color: red;
+  position: relative;
+}

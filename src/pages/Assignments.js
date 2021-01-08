@@ -57,7 +57,7 @@ function WorkDone(){
                 <tr>
                     <td>1.3</td>
                     <td>Deploy an assignments page (this page!) </td>
-                        <td><a href="https://echochris234.github.io/assignments">link</a></td>
+                        <td><a href="https://echochris234.github.io/personal-page/#/assignments">link</a></td>
                     <td>1</td>
                     <td>2</td>
                     <td>4</td>
