@@ -1,3 +1,15 @@
+
+### TODO List
+
+- [x] Start Repo
+- [x] Create readMe
+- [x] Upload Program
+- [x] Create TODO
+- [ ] Create CHANGELOG
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
