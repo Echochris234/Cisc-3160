@@ -16,15 +16,15 @@ import './App.css';
 function Navigation(props) {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark shadow mb-3">
-      <Link className="navbar-brand" to="/display">3160 Labs</Link>
+      <Link className="navbar-brand" to="/Cisc-3160/display">3160 Labs</Link>
       <ul className="navbar-nav mr-auto">
         <li className="nav-item">
-          <NavLink className="nav-link" exact to="/display">
+          <NavLink className="nav-link" exact to="/Cisc-3160/display">
             Display Image
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" exact to="/about-us">
+          <NavLink className="nav-link" exact to="/Cisc-3160/about-us">
             About Us
           </NavLink>
         </li>
@@ -42,9 +42,9 @@ class App extends React.Component {
           <div className="container-fluid text-center">
             <div className="row justify-content-center">
               <Switch>
-                <Route path="/display" component={DisplayImage} />
+              <Route path="/Cisc-3160/display" component={DisplayImage} />
                 
-                <Route path="/about-us" component={AboutUsPage} />
+              <Route path="/Cisc-3160/about-us" component={AboutUsPage} />
                 
               </Switch>
             </div>
