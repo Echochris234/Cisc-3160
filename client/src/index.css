@@ -7,28 +7,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 */
-
-body{
-  background-color:rgb(45, 49, 53);
-  color:white;
-}
-
-
-
-#aHeader{
-  margin-right:650px;
-
-}
-#metric{
-  margin-right:120px;
-}
-#aboutHeader{
-  background-color: red;
-  position: relative;
-}

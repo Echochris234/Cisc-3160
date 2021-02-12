@@ -1,73 +1,152 @@
+# Project Starter 
+A starter repo for building CUNY Tech Prep projects with React, Express.js, and Sequelize.js
+
+## Stack
+
+*API*
+
+- express.js
+- sequelize.js
+
+*React client*
+
+- Built using `create-react-app` and configured to work with the api.
+- Bootstrap 4.x added to `/client/public/index.html`
+- React Router
+
+*Project Structure*
+
+<pre>
+.
+├── README.md
+├── <strong>api</strong>
+│   ├── app.js
+│   ├── <strong>config</strong>
+│   │   └── config.json
+│   ├── <strong>controllers</strong>
+│   │   ├── appConfig.js
+│   │   ├── index.js
+│   │   └── posts.js
+│   └── <strong>models</strong>
+│       ├── index.js
+│       └── post.js
+├── <strong>client</strong>
+│   ├── README.md
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── <strong>public</strong>
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   ├── logo192.png
+│   │   ├── logo512.png
+│   │   ├── manifest.json
+│   │   └── robots.txt
+│   └── <strong>src</strong>
+│       ├── App.css
+│       ├── App.js
+│       ├── App.test.js
+│       ├── <strong>components</strong>
+│       │   ├── Loading.js
+│       │   └── Post.js
+│       ├── index.css
+│       ├── index.js
+│       ├── logo.svg
+│       ├── <strong>pages</strong>
+│       │   ├── AboutUsPage.js
+│       │   ├── PostFormPage.js
+│       │   ├── PostsListPage.js
+│       │   └── ShowPostPage.js
+│       └── serviceWorker.js
+├── package-lock.json
+└── package.json
+</pre>
 
 
+## Dev Setup
 
-# Getting Started with Create React App
+Each team member will need to do this on their local machine.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Create a postgres db
 
-## Available Scripts
+Create a user in postgres named `ctp_user` with the password `ctp_pass`:
 
-In the project directory, you can run:
+> This only needs to be done one time on your machine
+> You can create additional users if you want to.
 
-### `npm start`
+```
+createuser -P -s -e ctp_user
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Create a separate db for this project:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+createdb -h localhost -U ctp_user app2019_development
+```
 
-### `npm test`
+> You will create a DB for each project you start based on this repo. For other projects change `app2019_development` to the new apps database name.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*For more details see this [installing postgres guide](https://github.com/CUNYTechPrep/ctp2019/blob/master/guides/installing-postgresql.md)*
 
-### `npm run build`
+### Running the app
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+For local development you will need two terminals open, one for the api-backend and another for the react-client.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*Clone* this app, then:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# api-backend terminal 1
+cp .env.example .env
+npm install
+npm run dev
+```
 
-### `npm run eject`
+```bash
+# react-client terminal 2
+cd client
+npm install
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- api-backend will launch at: http://localhost:8080
+- react-client will launch at: http://localhost:3000
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> In production you will only deploy a single app. The react client will build into static files that will be served from the backend.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Deployment
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Setting up Heroku
 
-## Learn More
+Install the heroku cli if you don't already have it. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+> You will also need a heroku account
+> And this will only be done once on your machine
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# on mac
+brew install heroku/brew/heroku
+heroku login
+```
 
-### Code Splitting
+### Create a Heroku project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Next, `cd` into this project directory and create a project:
 
-### Analyzing the Bundle Size
+```bash
+heroku create cool-appname
+heroku addons:create heroku-postgresql:hobby-dev
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+> This will deploy your apps to https://cool-appname.herokuapp.com, assuming that it is not taken already.
 
-### Making a Progressive Web App
+> You only need to do this once per app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Deploying the app
 
-### Advanced Configuration
+Whenever you want to update the app run this command.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+git push heroku master
+```
 
-### Deployment
+> This command deploys your master branch. You can change that and deploy a different branch such as: `git push heroku development`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
