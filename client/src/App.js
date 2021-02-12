@@ -16,10 +16,10 @@ import './App.css';
 function Navigation(props) {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark shadow mb-3">
-      <Link className="navbar-brand" to="/Cisc-3160/display">3160 Labs</Link>
+      <Link className="navbar-brand" to="/Cisc-3160">3160 Labs</Link>
       <ul className="navbar-nav mr-auto">
         <li className="nav-item">
-          <NavLink className="nav-link" exact to="/Cisc-3160/display">
+          <NavLink className="nav-link" exact to="/Cisc-3160">
             Display Image
           </NavLink>
         </li>
@@ -42,7 +42,7 @@ class App extends React.Component {
           <div className="container-fluid text-center">
             <div className="row justify-content-center">
               <Switch>
-              <Route path="/Cisc-3160/display" component={DisplayImage} />
+              <Route path="/Cisc-3160" component={DisplayImage} />
                 
               <Route path="/Cisc-3160/about-us" component={AboutUsPage} />
                 

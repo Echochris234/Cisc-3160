@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/Echochris234/Cisc-3160/",
   "name": "api-backend",
   "version": "1.0.0",
   "description": "An api backend",
@@ -7,7 +8,9 @@
     "start": "node api/app.js",
     "dev": "nodemon -r dotenv/config api/app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd client && npm install && npm run build"
+    "build": "cd client && npm install && npm run build",
+    "predeploy": "npm run start",
+    "deploy": "gh-pages -d start"
   },
   "author": "Christian Vargas",
   "license": "ISC",
