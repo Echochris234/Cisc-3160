@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/personal-page/static/css/main.d50d9cf0.chunk.css",
-    "main.js": "/personal-page/static/js/main.c4fc022e.chunk.js",
-    "main.js.map": "/personal-page/static/js/main.c4fc022e.chunk.js.map",
-    "runtime-main.js": "/personal-page/static/js/runtime-main.ab48a0fb.js",
-    "runtime-main.js.map": "/personal-page/static/js/runtime-main.ab48a0fb.js.map",
-    "static/css/2.ae9f1eb3.chunk.css": "/personal-page/static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.455466a3.chunk.js": "/personal-page/static/js/2.455466a3.chunk.js",
-    "static/js/2.455466a3.chunk.js.map": "/personal-page/static/js/2.455466a3.chunk.js.map",
-    "index.html": "/personal-page/index.html",
-    "static/css/2.ae9f1eb3.chunk.css.map": "/personal-page/static/css/2.ae9f1eb3.chunk.css.map",
-    "static/css/main.d50d9cf0.chunk.css.map": "/personal-page/static/css/main.d50d9cf0.chunk.css.map",
-    "static/js/2.455466a3.chunk.js.LICENSE.txt": "/personal-page/static/js/2.455466a3.chunk.js.LICENSE.txt"
+    "main.css": "/Echochris234/Cisc-3160/static/css/main.47f16ae8.chunk.css",
+    "main.js": "/Echochris234/Cisc-3160/static/js/main.f4c86c78.chunk.js",
+    "main.js.map": "/Echochris234/Cisc-3160/static/js/main.f4c86c78.chunk.js.map",
+    "runtime-main.js": "/Echochris234/Cisc-3160/static/js/runtime-main.66d3e65f.js",
+    "runtime-main.js.map": "/Echochris234/Cisc-3160/static/js/runtime-main.66d3e65f.js.map",
+    "static/js/2.c104e318.chunk.js": "/Echochris234/Cisc-3160/static/js/2.c104e318.chunk.js",
+    "static/js/2.c104e318.chunk.js.map": "/Echochris234/Cisc-3160/static/js/2.c104e318.chunk.js.map",
+    "index.html": "/Echochris234/Cisc-3160/index.html",
+    "precache-manifest.41805aa16de68d431f8292fa37f41f93.js": "/Echochris234/Cisc-3160/precache-manifest.41805aa16de68d431f8292fa37f41f93.js",
+    "service-worker.js": "/Echochris234/Cisc-3160/service-worker.js",
+    "static/css/main.47f16ae8.chunk.css.map": "/Echochris234/Cisc-3160/static/css/main.47f16ae8.chunk.css.map",
+    "static/js/2.c104e318.chunk.js.LICENSE.txt": "/Echochris234/Cisc-3160/static/js/2.c104e318.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ab48a0fb.js",
-    "static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.455466a3.chunk.js",
-    "static/css/main.d50d9cf0.chunk.css",
-    "static/js/main.c4fc022e.chunk.js"
+    "static/js/runtime-main.66d3e65f.js",
+    "static/js/2.c104e318.chunk.js",
+    "static/css/main.47f16ae8.chunk.css",
+    "static/js/main.f4c86c78.chunk.js"
   ]
 }
