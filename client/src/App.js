@@ -38,7 +38,7 @@ function Navigation(props) {
 class App extends React.Component {
   render() {
     return (
-      <HashRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter basename={process.env.PUBLIC_URL+'/'}>
           <Navigation />
           <div className="container-fluid text-center">
             <div className="row justify-content-center">
