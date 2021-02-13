@@ -4,7 +4,8 @@ import {
   Switch, 
   Route, 
   Link,
-  NavLink
+  NavLink,
+  HashRouter
 } from 'react-router-dom';
 
 import AboutUsPage from './pages/AboutUsPage';
@@ -37,7 +38,7 @@ function Navigation(props) {
 class App extends React.Component {
   render() {
     return (
-        <Router>
+      <HashRouter basename={process.env.PUBLIC_URL}>
           <Navigation />
           <div className="container-fluid text-center">
             <div className="row justify-content-center">
@@ -49,7 +50,7 @@ class App extends React.Component {
               </Switch>
             </div>
           </div>
-        </Router>
+      </HashRouter>
     );
   }
 }
