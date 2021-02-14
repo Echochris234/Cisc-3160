@@ -16,6 +16,7 @@ import './App.css';
 
 function Navigation(props) {
   return (
+    
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark shadow mb-3">
       <Link className="navbar-brand" to="/">3160 Labs</Link>
       <ul className="navbar-nav mr-auto">
@@ -38,7 +39,7 @@ function Navigation(props) {
 class App extends React.Component {
   render() {
     return (
-      <Router>
+      <HashRouter>
           <Navigation />
           <div className="container-fluid text-center">
             <div className="row justify-content-center">
@@ -50,7 +51,7 @@ class App extends React.Component {
               </Switch>
             </div>
           </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
