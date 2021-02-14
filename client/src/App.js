@@ -17,15 +17,15 @@ import './App.css';
 function Navigation(props) {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark shadow mb-3">
-      <Link className="navbar-brand" to="https://github.com/Echochris234/Cisc-3160/">3160 Labs</Link>
+      <Link className="navbar-brand" to="/">3160 Labs</Link>
       <ul className="navbar-nav mr-auto">
         <li className="nav-item">
-          <NavLink className="nav-link" to="https://github.com/Echochris234/Cisc-3160/">
+          <NavLink className="nav-link" to="/display">
             Display Image
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="https://github.com/Echochris234/Cisc-3160/about-us">
+          <NavLink className="nav-link" to="/about-us">
             About Us
           </NavLink>
         </li>
@@ -38,19 +38,19 @@ function Navigation(props) {
 class App extends React.Component {
   render() {
     return (
-      <HashRouter basename={process.env.PUBLIC_URL+'/'}>
+      <Router>
           <Navigation />
           <div className="container-fluid text-center">
             <div className="row justify-content-center">
               <Switch>
-              <Route path="https://github.com/Echochris234/Cisc-3160/" component={DisplayImage} />
+              <Route path="/display" component={DisplayImage} />
                 
-              <Route path="https://github.com/Echochris234/Cisc-3160/about-us" component={AboutUsPage} />
+              <Route path="/about-us" component={AboutUsPage} />
                 
               </Switch>
             </div>
           </div>
-      </HashRouter>
+      </Router>
     );
   }
 }
