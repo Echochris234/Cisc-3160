@@ -1,0 +1,27 @@
+
+Reference Guide:
+
+Python:
+
+
+General Python documentation
+https://docs.python.org/3/tutorial/index.html
+Great course to dive deep into python and ML
+https://www.udemy.com/course/complete-python-bootcamp/
+Great Book on python basics
+https://www.amazon.com/Python-Bible-Programming-Beginners-Introduction-ebook/dp/B07SZQQGZY
+
+
+
+
+C++:
+
+Information on templates
+https://www.cplusplus.com/doc/oldtutorial/templates/
+Information on IOstream
+https://www.cplusplus.com/reference/istream/iostream/?kw=iostream
+Information on printing
+https://www.cplusplus.com/reference/iostream/cout/?kw=cout
+
+Information on namespaces
+https://www.cplusplus.com/doc/oldtutorial/namespaces/

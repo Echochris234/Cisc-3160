@@ -1,0 +1,13 @@
+Python:
+ Create a multithreaded program:
+Allocate a map for threads to live on
+Create a mutex lock to keep sensitive data safe
+Populate the data structure with open available slots
+Create and run the created threads to simulate applications opening on a machine
+
+
+C++:
+Create a template file that is not concerned with what data type is passed into it but manipulates the data just the same
+-Create a file called simple.h which holds the structure and functions of the template
+-Create a file app.cpp which will contain the main application 
+
